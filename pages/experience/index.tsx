@@ -55,7 +55,7 @@ const Experience = () => {
                       </a>
                     </div>
                   </h3>
-                  <p className="mt-2 text-sm leading-normal text-justify">
+                  <div className="mt-2 text-sm leading-normal text-justify">
                     I&apos;ve been a{" "}
                     <p className="text-white inline-block">team lead</p> at
                     StrataSpot&apos;s live platform, where I handle client
@@ -66,7 +66,7 @@ const Experience = () => {
                     together. Also, I&apos;m big on testing to catch problems
                     early. Over at Transcom Digital, I rocked ReactJS, NextJs,
                     .NET Core 3.1, and MongoDB.
-                  </p>
+                  </div>
                   <p className="mt-2 text-sm leading-normal text-justify">
                     I made cool things happen, like making payments easy and
                     setting up discounts. I&apos;ve also made a social media

@@ -33,25 +33,37 @@ const Certifications = () => {
           <div className="w-1/3 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
-              src="/certificates/CSharp-Basic-Certificate.png"
+              src="/certificates/basic-c-sharp-with-hackerrank.png"
               width={150}
               height={200}
               alt="HackerRank C# Basic Certificate"
               onClick={() =>
-                handleOpenModal("/certificates/CSharp-Basic-Certificate.png")
+                handleOpenModal("/certificates/basic-c-sharp-with-hackerrank.png")
               }
             />
           </div>
           <div className="w-1/3 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
-              src="/certificates/JavaScript-Basic-Certificate.png"
+              src="/certificates/foundational-c-sharp-with-microsoft.png"
+              width={150}
+              height={200}
+              alt="Foundational C sharp Certificate(Microsoft)"
+              onClick={() =>
+                handleOpenModal("/certificates/foundational-c-sharp-with-microsoft.png")
+              }
+            />
+          </div>
+          <div className="w-1/3 p-2">
+            <Image
+              className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
+              src="/certificates/basic-javascript-with-hackerrank.png"
               width={150}
               height={200}
               alt="HackerRank JavaScript Basic Certificate"
               onClick={() =>
                 handleOpenModal(
-                  "/certificates/JavaScript-Basic-Certificate.png"
+                  "/certificates/basic-javascript-with-hackerrank.png"
                 )
               }
             />
@@ -59,12 +71,12 @@ const Certifications = () => {
           <div className="w-1/3 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
-              src="/certificates/SQL-Basic-Certificate.png"
+              src="/certificates/basic-sql-with-hackerrank.png"
               width={150}
               height={200}
               alt="HackerRank SQL Basic Certificate"
               onClick={() =>
-                handleOpenModal("/certificates/SQL-Basic-Certificate.png")
+                handleOpenModal("/certificates/basic-sql-with-hackerrank.png")
               }
             />
           </div>
