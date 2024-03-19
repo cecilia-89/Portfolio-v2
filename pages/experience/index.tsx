@@ -20,7 +20,85 @@ const Experience = () => {
                   className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
                   aria-label="2018 to Present"
                 >
-                  2021 — Present
+                  March 2024 — Present
+                </header>
+                <div className="z-10 sm:col-span-6">
+                  <h3 className="font-medium leading-snug text-slate-200">
+                    <div>
+                      <a
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                        href="https://wundermanthompson.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="Software Engineer at Astha IT"
+                      >
+                        <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                        <span>
+                          Software Engineer {" . "}
+                          <span className="inline-block">
+                            Wunderman Thompson{" "}
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                              aria-hidden="true"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                clipRule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </h3>
+                  <div className="mt-2 text-sm leading-normal text-justify">
+                    Currently working here
+                  </div>
+                  <ul
+                    className="mt-2 flex flex-wrap"
+                    aria-label="Technologies used"
+                  >
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        C#
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        Asp .Net
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        .Net Web API
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        MS SQL
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                        Angular
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li className="mb-12">
+              <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                <header
+                  className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+                  aria-label="2018 to Present"
+                >
+                  February 2021 — February 2024
                 </header>
                 <div className="z-10 sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
@@ -56,26 +134,32 @@ const Experience = () => {
                     </div>
                   </h3>
                   <div className="mt-2 text-sm leading-normal text-justify">
-                    I&apos;ve been a{" "}
-                    <p className="text-white inline-block">team lead</p> at
-                    StrataSpot&apos;s live platform, where I handle client
-                    stuff, figure out what we need to do, help out the newbies,
-                    and even get my hands coding for feature rollouts. I set up
-                    a super smooth way to develop and integrate new stuff, like
-                    checking others&apos; work and making sure everything fits
-                    together. Also, I&apos;m big on testing to catch problems
-                    early. Over at Transcom Digital, I rocked ReactJS, NextJs,
-                    .NET Core 3.1, and MongoDB.
+                    I gained extensive experience working at StrataSpot&apos;s live
+                    platform, where my responsibilities included managing client
+                    tasks, strategizing project needs, providing guidance to
+                    team members, and actively contributing to coding tasks for
+                    feature deployments. I implemented efficient development and
+                    integration processes to ensure seamless collaboration and
+                    quality assurance, including thorough testing protocols to
+                    identify and address issues early on.
                   </div>
-                  <p className="mt-2 text-sm leading-normal text-justify">
-                    I made cool things happen, like making payments easy and
-                    setting up discounts. I&apos;ve also made a social media
-                    platform for Hawai&apos;s Global Aloha project pop with
-                    Angular, .NET Core 3.1, and PostgreSQL. I&apos;m all about
-                    keeping things agile, joining in planning sessions, daily
-                    check-ins, and looking back to make things even better. And
-                    hey, I&apos;ve been recognized for being awesome at solving
-                    problems and giving my all to the team.
+                  <p className="mt-4 text-sm leading-normal text-justify">
+                    Additionally, during my tenure at Apex4u and Transcom
+                    Digital, I demonstrated proficiency in .NET 6, .NET Core
+                    3.1, and MongoDB respectively. I successfully executed
+                    projects aimed at streamlining catalog management, order
+                    management, payment processes, and implementing promotional
+                    strategies. Additionally, enhanced features of Hawai&apos;s
+                    Global Aloha project&apos;s social media platform utilizing
+                    Angular, .NET Core 3.1, and PostgreSQL.
+                  </p>
+
+                  <p className="mt-4 text-sm leading-normal text-justify">
+                    My approach emphasized agility, as I participated in
+                    planning sessions, daily check-ins, and retrospective
+                    analysis to continually optimize project outcomes. I was
+                    recognized for my problem-solving abilities and dedication
+                    to team success during my time.
                   </p>
                   <ul
                     className="mt-2 flex flex-wrap"
