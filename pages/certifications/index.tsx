@@ -11,12 +11,9 @@ const Certifications = () => {
   };
 
   const handleCloseModal = () => {
-    console.log("closed");
     setModalOpen(false);
   };
 
-  console.log(modalImageSrc);
-  console.log(modalOpen);
   return (
     <>
       <section
@@ -89,6 +86,18 @@ const Certifications = () => {
               alt="FreeCodeCampg JavaScript Algorithms and Data Structure"
               onClick={() =>
                 handleOpenModal("/certificates/javascript-algorithms-and-data-structures.png")
+              }
+            />
+          </div>
+          <div className="w-1/3 p-2">
+            <Image
+              className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
+              src="/certificates/udemy-aws-course-completion-certificate.jpg"
+              width={150}
+              height={200}
+              alt="Udemy AWS Course Completion Certificate"
+              onClick={() =>
+                handleOpenModal("/certificates/udemy-aws-course-completion-certificate.jpg")
               }
             />
           </div>
