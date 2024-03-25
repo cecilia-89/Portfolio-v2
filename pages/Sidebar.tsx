@@ -47,6 +47,45 @@ const Header = () => {
               devismael.blogspot.com
             </a>
           </p>
+
+          <div className="mt-3 w-1/4 max-w-xs group/item">
+            <a
+              className="
+            flex items-center
+             rounded z-10 mb-2
+              mt-1 text-xs font-semibold
+               uppercase tracking-wide
+                text-slate-500 sm:col-span-2
+                 bg-teal-600/10 px-4
+                  py-2 text-xs font-medium
+                   leading-5 text-teal-300
+                    hover:text-teal-100
+                     focus-visible:text-teal-300
+                     inline-flex items-baseline font-medium leading-tight text-slate-200
+                      hover:text-teal-300 focus-visible:text-teal-300 group/link text-base "
+              aria-label="View Full Resume"
+              href="/resume/Resume_Of_Ismael_Miah.pdf"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                className="lucide lucide-download mr-2 h-4 w-4 p-0 inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-y-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" x2="12" y1="15" y2="3"></line>
+              </svg>{" "}
+              Resume
+            </a>
+          </div>
           <nav className="nav hidden lg:block" aria-label="In-page jump links">
             <ul className="mt-12 w-max">
               <li>
@@ -115,7 +154,14 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-        <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
+        <a className="group flex items-center py-3 cursor-pointer active mt-16">
+          <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-focus-visible:w-8 group-focus-visible:bg-slate-200"></span>
+          <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+            Contact
+          </span>
+          <span className="nav-indicator ml-4 h-px w-8 bg-slate-600 transition-all group-focus-visible:w-8 group-focus-visible:bg-slate-200"></span>
+        </a>
+        <ul className="ml-1 m-0 flex items-center" aria-label="Social media">
           <li className="mr-5 text-xs">
             <a
               className="block hover:text-slate-200"
@@ -209,9 +255,7 @@ const Header = () => {
                 className="h-6 w-6"
                 aria-hidden="true"
               >
-                <path
-                  d="M22.539 8.242H1.46V5.406h21.08zM1.46 10.812V24L12 18.11L22.54 24V10.812zM22.54 0H1.46v2.836h21.08z"
-                />
+                <path d="M22.539 8.242H1.46V5.406h21.08zM1.46 10.812V24L12 18.11L22.54 24V10.812zM22.54 0H1.46v2.836h21.08z" />
               </svg>
             </a>
           </li>
