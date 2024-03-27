@@ -27,7 +27,7 @@ const Certifications = () => {
           </h2>
         </div>
         <div className="w-full flex flex-wrap">
-          <div className="w-1/3 p-2">
+          <div className="w-1/2 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
               src="/certificates/basic-c-sharp-with-hackerrank.png"
@@ -39,7 +39,7 @@ const Certifications = () => {
               }
             />
           </div>
-          <div className="w-1/3 p-2">
+          <div className="w-1/2 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
               src="/certificates/foundational-c-sharp-with-microsoft.png"
@@ -51,7 +51,7 @@ const Certifications = () => {
               }
             />
           </div>
-          <div className="w-1/3 p-2">
+          <div className="w-1/2 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
               src="/certificates/basic-javascript-with-hackerrank.png"
@@ -65,7 +65,7 @@ const Certifications = () => {
               }
             />
           </div>
-          <div className="w-1/3 p-2">
+          <div className="w-1/2 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
               src="/certificates/basic-sql-with-hackerrank.png"
@@ -77,7 +77,7 @@ const Certifications = () => {
               }
             />
           </div>
-          <div className="w-1/3 p-2">
+          <div className="w-1/2 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
               src="/certificates/javascript-algorithms-and-data-structures.png"
@@ -89,7 +89,7 @@ const Certifications = () => {
               }
             />
           </div>
-          <div className="w-1/3 p-2">
+          <div className="w-1/2 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
               src="/certificates/udemy-aws-course-completion-certificate.jpg"

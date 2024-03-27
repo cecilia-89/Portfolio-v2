@@ -15,6 +15,12 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+/* tailwind.css */
+@screen sm {
+  .mt-10-sm {
+    margin-top: 10px;
+  }
+}
 
 /* Style for the gallery */
 .gallery {
