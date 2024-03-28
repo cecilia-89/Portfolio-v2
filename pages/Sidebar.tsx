@@ -1,19 +1,9 @@
-//import Link from "next/link";
-import { useRouter } from "next/router";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 const Header = () => {
-  
   const PhoneStyles = {
-    marginTop: '15px',
-    marginBottom: '10px',
+    marginTop: "15px",
+    marginBottom: "10px",
   };
 
   return (
@@ -157,7 +147,11 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-        <ul className="ml-1 m-0 flex items-center" style={PhoneStyles} aria-label="Social media">
+        <ul
+          className="ml-1 m-0 flex items-center"
+          style={PhoneStyles}
+          aria-label="Social media"
+        >
           <li className="mr-5 text-xs">
             <a
               className="block hover:text-white"
