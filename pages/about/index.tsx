@@ -12,20 +12,22 @@ const About = () => {
       </div>
       <div>
         <p className="mb-4 text-justify">
-          A few years back, I decided to try my hand at establishing Facebook on
-          my own using raw PHP, and that was the moment I fell into coding and
-          web development, even if I couldn&apos;t finish that project. Fast
-          forward to now, and I&apos;ve had the pleasure of developing software
-          for{" "}
-          <a
+          My passion for coding began when I ambitiously attempted to build a
+          version of Facebook using raw PHP—though I didn’t finish it, that
+          experience sparked my love for software development. I went on to earn
+          a degree in <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://devskill.com/"
+            href="https://daffodilvarsity.edu.bd/department/swe/program/bsc-in-swe"
             target="_blank"
             rel="noreferrer"
           >
-            DevSkill
-          </a>
-          , and{" "}
+            Software Engineering
+          </a> from Daffodil International
+          University, where I sharpened my problem-solving skills through
+          various projects.
+        </p>
+        <p className="mb-4 text-justify">
+          After graduation, I started my professional career at{" "}
           <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://www.asthait.com/"
@@ -34,9 +36,21 @@ const About = () => {
           >
             ASTHA-IT.
           </a>
+          , tackling real-world problems with technology. Alongside my job, I
+          completed a remote internship at {""}
+          <a
+            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+            href="https://devskill.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            DevSkill
+          </a>
+          , which was a pivotal experience that enhanced my skills during my
+          first year at ASTHA-IT. My time there was a huge learning opportunity.
         </p>
-        <p className="mb-4 text-justify">
-          I also like sharing content in{" "}
+        <p className="mb-4">
+          I love sharing web development insights with the Dev Community on {" "}
           <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://www.linkedin.com/in/ismaelmiah/"
@@ -45,19 +59,32 @@ const About = () => {
           >
             LinkedIn
           </a>{" "}
-          related to the stuff that I have learned over the years in Web
-          Development so it can help other people of the Dev Community.
-        </p>
+          and my{" "}
+          <a
+            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+            href="https://devismael.substack.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Substack
+          </a>{" "}
+          platform. Outside of work, I’m an avid chess player—feel free to check
+          out my profile on Lichess:{" "}
+          <a
+            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+            href="https://lichess.org/@/ismailhosen"
+            target="_blank"
+            rel="noreferrer"
+          >
+            lichess.org/@/ismailhosen
+          </a>
+          .{" "}
+        </p>{" "}
         <p className="mb-4 text-justify">
-          I&apos;m interested in{" "}
-          <b className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
-            Part-Time
-          </b>{" "}
-          employment options where I can grow, contribute, and learn. If you
-          have a fantastic opportunity that matches my talents and expertise,
-          please do not hesitate to contact me. In my free time, I contribute
-          some open-source projects and try to learn something new from LinkedIn
-          connections.
+          {" "}
+          I’m always open to part-time opportunities where I can contribute,
+          grow, and continue learning. If you’d like to collaborate, let’s
+          connect!{" "}
         </p>
       </div>
 
@@ -124,37 +151,37 @@ const About = () => {
             </li>
             <li className="mr-1.5 mt-2">
               <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-              EC2
+                EC2
               </div>
             </li>
             <li className="mr-1.5 mt-2">
               <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-              S3
+                S3
               </div>
             </li>
             <li className="mr-1.5 mt-2">
               <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-              ELB
+                ELB
               </div>
             </li>
             <li className="mr-1.5 mt-2">
               <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-              ASG
+                ASG
               </div>
             </li>
             <li className="mr-1.5 mt-2">
               <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-              Lambda
+                Lambda
               </div>
             </li>
             <li className="mr-1.5 mt-2">
               <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-              SQS
+                SQS
               </div>
             </li>
             <li className="mr-1.5 mt-2">
               <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-              SNS
+                SNS
               </div>
             </li>
             <li className="mr-1.5 mt-2">
