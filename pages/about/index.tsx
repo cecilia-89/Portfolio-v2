@@ -15,16 +15,17 @@ const About = () => {
           My passion for coding began when I ambitiously attempted to build a
           version of Facebook using raw PHP—though I didn’t finish it, that
           experience sparked my love for software development. I went on to earn
-          a degree in <a
+          a degree in{" "}
+          <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://daffodilvarsity.edu.bd/department/swe/program/bsc-in-swe"
             target="_blank"
             rel="noreferrer"
           >
             Software Engineering
-          </a> from Daffodil International
-          University, where I sharpened my problem-solving skills through
-          various projects.
+          </a>{" "}
+          from Daffodil International University, where I sharpened my
+          problem-solving skills through various projects.
         </p>
         <p className="mb-4 text-justify">
           After graduation, I started my professional career at{" "}
@@ -47,10 +48,19 @@ const About = () => {
             DevSkill
           </a>
           , which was a pivotal experience that enhanced my skills during my
-          first year at ASTHA-IT. My time there was a huge learning opportunity.
+          first year at ASTHA-IT. Lastly, I joined {" "}
+          <a
+            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+            href="https://www.hogarth.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hogarth
+          </a> in early 2024, and
+          after that, I moved to London, United Kingdom, for your studies.
         </p>
         <p className="mb-4">
-          I love sharing web development insights with the Dev Community on {" "}
+          I love sharing web development insights with the Dev Community on{" "}
           <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://www.linkedin.com/in/ismaelmiah/"
