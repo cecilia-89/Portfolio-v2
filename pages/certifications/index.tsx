@@ -27,6 +27,19 @@ const Certifications = () => {
           </h2>
         </div>
         <div className="w-full flex flex-wrap">
+          
+        <div className="p-2">
+            <Image
+              className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
+              src="/certificates/asp.net-mvc-certificate.jpg"
+              width={150}
+              height={200}
+              alt="Asp .NET Full Stack MVC Certificate"
+              onClick={() =>
+                handleOpenModal("/certificates/asp.net-mvc-certificate.jpg")
+              }
+            />
+          </div>
           <div className="w-1/2 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"

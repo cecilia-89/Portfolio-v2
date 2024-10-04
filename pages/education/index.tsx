@@ -59,7 +59,7 @@ const Education = () => {
                   data-nimg="1"
                   className="rounded transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                   style={{ color: "transparent" }}
-                  src={"/images/educations/bedfordshire.webp"}
+                  src={"/images/educations/bedfordshire.png"}
                 />
               </div>
             </li>
