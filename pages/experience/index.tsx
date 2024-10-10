@@ -16,12 +16,23 @@ const Experience = () => {
             <li className="mb-12">
               <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                <header
-                  className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                  aria-label="march 2024 to august 2024"
-                >
-                  March 2024 — August 2024
-                </header>
+                <div className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+                  <header aria-label="march 2024 to august 2024">
+                    March 2024 — August 2024
+                  </header>
+
+                  <img
+                    alt=""
+                    loading="lazy"
+                    width="200"
+                    height="48"
+                    decoding="async"
+                    data-nimg="1"
+                    className="rounded transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                    style={{ color: "transparent" }}
+                    src={"/images/experiences/hogarth.png"}
+                  />
+                </div>
                 <div className="z-10 sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <div>
@@ -56,10 +67,12 @@ const Experience = () => {
                     </div>
                   </h3>
                   <div className="mt-2 text-sm leading-normal text-justify">
-                  In my role as a Software Engineer at Hogarth Dhaka, I was responsible for understanding requirements,
-                   estimating tasks, and implementing enhancements and fixes.
-                    I also focused on maintaining codebase consistency, optimizing queries for large production data,
-                     and increasing research and development on complex topics, libraries, and APIs.
+                    In my role as a Software Engineer at Hogarth Dhaka, I was
+                    responsible for understanding requirements, estimating
+                    tasks, and implementing enhancements and fixes. I also
+                    focused on maintaining codebase consistency, optimizing
+                    queries for large production data, and increasing research
+                    and development on complex topics, libraries, and APIs.
                   </div>
                   <ul
                     className="mt-2 flex flex-wrap"
@@ -97,12 +110,22 @@ const Experience = () => {
             <li className="mb-12">
               <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                <header
-                  className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                  aria-label="2018 to Present"
-                >
-                  February 2021 — February 2024
-                </header>
+                <div className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+                  <header aria-label="2018 to Present">
+                    February 2021 — February 2024
+                  </header>
+                  <img
+                    alt=""
+                    loading="lazy"
+                    width="200"
+                    height="48"
+                    decoding="async"
+                    data-nimg="1"
+                    className="rounded transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                    style={{ color: "transparent" }}
+                    src={"/images/experiences/astha-it.jpeg"}
+                  />
+                </div>
                 <div className="z-10 sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <div>
@@ -137,14 +160,14 @@ const Experience = () => {
                     </div>
                   </h3>
                   <div className="mt-2 text-sm leading-normal text-justify">
-                    I gained extensive experience working at StrataSpot&apos;s live
-                    platform, where my responsibilities included managing client
-                    tasks, strategizing project needs, providing guidance to
-                    team members, and actively contributing to coding tasks for
-                    feature deployments. I implemented efficient development and
-                    integration processes to ensure seamless collaboration and
-                    quality assurance, including thorough testing protocols to
-                    identify and address issues early on.
+                    I gained extensive experience working at StrataSpot&apos;s
+                    live platform, where my responsibilities included managing
+                    client tasks, strategizing project needs, providing guidance
+                    to team members, and actively contributing to coding tasks
+                    for feature deployments. I implemented efficient development
+                    and integration processes to ensure seamless collaboration
+                    and quality assurance, including thorough testing protocols
+                    to identify and address issues early on.
                   </div>
                   <p className="mt-4 text-sm leading-normal text-justify">
                     Additionally, during my tenure at Apex4u and Transcom
