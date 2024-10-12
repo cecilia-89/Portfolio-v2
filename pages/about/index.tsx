@@ -12,23 +12,7 @@ const About = () => {
       </div>
       <div>
         <p className="mb-4 text-justify">
-          My passion for coding began when I ambitiously attempted to build a
-          version of Facebook using raw PHP—though I didn’t finish it, that
-          experience sparked my love for software development. I went on to earn
-          a degree in{" "}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="https://daffodilvarsity.edu.bd/department/swe/program/bsc-in-swe"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Software Engineering
-          </a>{" "}
-          from Daffodil International University, where I sharpened my
-          problem-solving skills through various projects.
-        </p>
-        <p className="mb-4 text-justify">
-          After graduation, I started my professional career at{" "}
+          I started my professional career at{" "}
           <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://www.asthait.com/"
@@ -48,7 +32,7 @@ const About = () => {
             DevSkill
           </a>
           , which was a pivotal experience that enhanced my skills during my
-          first year at ASTHA-IT. Lastly, I joined {" "}
+          first year at ASTHA-IT. Lastly, I joined{" "}
           <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://www.hogarth.com/"
@@ -56,8 +40,9 @@ const About = () => {
             rel="noreferrer"
           >
             Hogarth
-          </a> in early 2024, and
-          after that, I moved to London, United Kingdom, for your studies.
+          </a>{" "}
+          in early 2024, and after that, I moved to London, United Kingdom, for
+          my studies.
         </p>
         <p className="mb-4">
           I love sharing web development insights with the Dev Community on{" "}
@@ -69,7 +54,7 @@ const About = () => {
           >
             LinkedIn
           </a>{" "}
-          and my{" "}
+          and{" "}
           <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://devismael.substack.com/"
@@ -78,8 +63,8 @@ const About = () => {
           >
             Substack
           </a>{" "}
-          platform. Outside of work, I’m an avid chess player—feel free to check
-          out my profile on Lichess:{" "}
+          platform. Outside of work, I&apos;m an avid chess player—feel free to
+          check out my profile on Lichess:{" "}
           <a
             className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://lichess.org/@/ismailhosen"
@@ -92,9 +77,8 @@ const About = () => {
         </p>{" "}
         <p className="mb-4 text-justify">
           {" "}
-          I’m always open to part-time opportunities where I can contribute,
-          grow, and continue learning. If you’d like to collaborate, let’s
-          connect!{" "}
+          Open to <b className="font-medium text-slate-200">part-time</b> or <b className="font-medium text-slate-200">contract</b> roles where I can make a
+          difference, grow, and keep evolving.
         </p>
       </div>
 
