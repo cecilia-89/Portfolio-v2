@@ -1,3 +1,4 @@
+import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-scroll";
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-16">
         <div>
           <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
-            <Link
+            <ScrollLink
               activeClass="active"
               to="/"
               spy={true}
@@ -19,7 +20,7 @@ const Header = () => {
               duration={500}
             >
               Ismael Miah
-            </Link>
+            </ScrollLink>
           </h1>
           <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
             Software Engineer
@@ -82,7 +83,7 @@ const Header = () => {
           <nav className="nav hidden lg:block" aria-label="In-page jump links">
             <ul className="mt-12 w-max">
               <li>
-                <Link
+                <ScrollLink
                   activeClass="active"
                   to="about"
                   className="group flex items-center py-3 cursor-pointer"
@@ -95,10 +96,10 @@ const Header = () => {
                   <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
                     About
                   </span>
-                </Link>
+                </ScrollLink>
               </li>
               <li>
-                <Link
+                <ScrollLink
                   activeClass="active"
                   to="experience"
                   className="group flex items-center py-3 cursor-pointer"
@@ -111,10 +112,10 @@ const Header = () => {
                   <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
                     Experience
                   </span>
-                </Link>
+                </ScrollLink>
               </li>
               <li>
-                <Link
+                <ScrollLink
                   activeClass="active"
                   to="projects"
                   className="group flex items-center py-3 cursor-pointer"
@@ -127,10 +128,10 @@ const Header = () => {
                   <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
                     Projects
                   </span>
-                </Link>
+                </ScrollLink>
               </li>
               <li>
-                <Link
+                <ScrollLink
                   activeClass="active"
                   to="education"
                   className="group flex items-center py-3 cursor-pointer"
@@ -143,10 +144,10 @@ const Header = () => {
                   <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
                     Education
                   </span>
-                </Link>
+                </ScrollLink>
               </li>
               <li>
-                <Link
+                <ScrollLink
                   activeClass="active"
                   className="group flex items-center py-3 cursor-pointer"
                   to="certification"
@@ -159,7 +160,7 @@ const Header = () => {
                   <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
                     Certifications
                   </span>
-                </Link>
+                </ScrollLink>
               </li>
             </ul>
           </nav>
