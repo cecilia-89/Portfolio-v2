@@ -33,9 +33,9 @@ const Header = () => {
             solve real-world problems.
           </p>
 
-          <div className="mt-3 max-w-xs flex">
+          <div className="mt-4 max-w-xs flex gap-4">
             <Link
-              className="flex items-center rounded uppercase bg-indigo-800 px-4 py-2 text-xs text-white mr-2 font-medium"
+              className="flex items-center rounded uppercase border border-teal-300 px-4 py-2 text-xs text-teal-300 font-medium"
               href="https://devismael.substack.com/"
               target="_blank"
               title="Openning blog site in new tab"
@@ -56,27 +56,31 @@ const Header = () => {
             </Link>
             <Link
               href="/resume/Resume_Of_Ismael_Miah.pdf"
-              className="flex items-center rounded uppercase bg-sky-500 px-4 py-2 text-xs text-white font-medium"
+              className="flex items-center rounded uppercase border border-teal-300 px-4 py-2 text-xs text-teal-300 font-medium"
               aria-label="Download CV"
               target="_blank"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                fill-rule="evenodd"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
-                clip-rule="evenodd"
                 fill="none"
                 stroke="currentColor"
-                strokeWidth="1"
-                className="lucide lucide-flame mr-2 h-4 w-4"
+                strokeWidth="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                className="lucide lucide-download mr-2 h-4 w-4"
               >
-                <path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z" />
-              </svg>
-              Download CV
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" x2="12" y1="15" y2="3"></line>
+              </svg>{" "}
+              Resume
             </Link>
           </div>
           <nav className="nav hidden lg:block" aria-label="In-page jump links">
-            <ul className="mt-12 w-max">
+            <ul className="mt-8 w-max">
               <li>
                 <ScrollLink
                   activeClass="active"
