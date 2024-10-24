@@ -1,5 +1,5 @@
 import { Link as ScrollLink } from "react-scroll";
-import { Link } from "react-scroll";
+import Link from "next/link";
 
 const Header = () => {
   const PhoneStyles = {
@@ -35,31 +35,10 @@ const Header = () => {
 
           <div className="mt-3 max-w-xs flex">
             <a
-              className="flex items-center rounded uppercase bg-teal-400/10 px-4 py-2 text-xs text-teal-300 hover:text-teal-100 mr-2 font-medium"
-              href="https://devismael.blogspot.com/"
+              className="flex items-center rounded uppercase bg-indigo-800 px-4 py-2 text-xs text-white mr-2 font-medium"
+              href="https://devismael.substack.com/"
               target="_blank"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                className="lucide lucide-flame mr-2 h-4 w-4"
-              >
-                <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
-              </svg>
-              My CP Blog
-            </a>
-            <a
-              className="flex items-center rounded uppercase bg-teal-300 px-4 py-2 text-xs text-teal-900 hover:text-teal-100 hover:bg-teal-400/10 font-medium"
-              aria-label="View Full Resume"
-              href="/resume/Resume_Of_Ismael_Miah.pdf"
-              target="_blank"
+              title="Openning blog site in new tab"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,16 +48,21 @@ const Header = () => {
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                className="lucide lucide-download mr-2 h-4 w-4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-flame mr-2 h-4 w-4"
               >
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" x2="12" y1="15" y2="3"></line>
-              </svg>{" "}
-              Resume
+                <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
+              </svg>
+              Blog
             </a>
+            <Link
+              href="/contact"
+              className="flex items-center rounded uppercase bg-sky-500 px-4 py-2 text-xs text-white font-medium"
+              aria-label="Hire me"
+            >
+              Hire Me!
+            </Link>
           </div>
           <nav className="nav hidden lg:block" aria-label="In-page jump links">
             <ul className="mt-12 w-max">
