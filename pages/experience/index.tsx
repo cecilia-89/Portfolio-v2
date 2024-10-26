@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Experience = () => {
   return (
     <>
@@ -21,7 +23,7 @@ const Experience = () => {
                     March 2024 — August 2024
                   </header>
 
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="200"
@@ -114,7 +116,7 @@ const Experience = () => {
                   <header aria-label="2018 to Present">
                     February 2021 — February 2024
                   </header>
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="200"
@@ -297,7 +299,7 @@ const Experience = () => {
                   <header aria-label="July to December 2017">
                     December 2020 — February 2021
                   </header>
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="200"

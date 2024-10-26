@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Project = () => {
   return (
@@ -55,7 +56,7 @@ const Project = () => {
                     marketing designs and templates.
                   </p>
                 </div>
-                <img
+                <Image
                   alt=""
                   loading="lazy"
                   width="200"
@@ -109,7 +110,7 @@ const Project = () => {
                     evolve and scale.
                   </p>
                 </div>
-                <img
+                <Image
                   alt=""
                   loading="lazy"
                   width="200"
@@ -163,7 +164,7 @@ const Project = () => {
                     their fingers.
                   </p>
                 </div>
-                <img
+                <Image
                   alt=""
                   loading="lazy"
                   width="200"
@@ -217,7 +218,7 @@ const Project = () => {
                     home.
                   </p>
                 </div>
-                <img
+                <Image
                   alt=""
                   loading="lazy"
                   width="200"

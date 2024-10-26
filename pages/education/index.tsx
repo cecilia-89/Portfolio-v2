@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Education = () => {
   return (
     <>
@@ -50,7 +52,7 @@ const Education = () => {
                     Studying Master&apos;s in computer networking
                   </p>
                 </div>
-                <img
+                <Image
                   alt=""
                   loading="lazy"
                   width="200"
@@ -117,7 +119,7 @@ const Education = () => {
                     .
                   </p>
                 </div>
-                <img
+                <Image
                   alt=""
                   loading="lazy"
                   width="200"

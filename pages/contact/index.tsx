@@ -33,11 +33,17 @@ const Contact = () => {
 
           <div className="contact-info flex gap-12 items-center">
             <div className="say-hello w-1/2">
-              <form className="max-w-lg mx-auto bg-teal-100 p-6 rounded-lg shadow-md" name="contact" method="POST" data-netlify="true">
+              <form
+                className="contact max-w-lg mx-auto bg-teal-100 p-6 rounded-lg shadow-md"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
+                <input type="hidden" name="form-name" value="contact" />
                 <input
                   type="email"
                   id="email_to"
-                  name="email_to"
                   className="w-full px-4 py-2 mb-4 border border-black  text-slate-950 rounded-lg focus:outline-none focus:border-blue-500"
                   placeholder="To: ismaelmiah.swe@gmail.com"
                   readOnly={true}
