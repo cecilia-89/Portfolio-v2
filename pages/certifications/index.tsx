@@ -27,8 +27,19 @@ const Certifications = () => {
           </h2>
         </div>
         <div className="w-full flex flex-wrap">
-          
-        <div className="p-2">
+          <div className="w-1/2 p-2">
+            <Image
+              className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
+              src="/certificates/cloud-computing-fundamentals.png"
+              width={150}
+              height={200}
+              alt="Cloud Computing Fundamental"
+              onClick={() =>
+                handleOpenModal("/certificates/cloud-computing-fundamentals.png")
+              }
+            />
+          </div>
+          <div className="w-1/2 p-2">
             <Image
               className="w-full h-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer"
               src="/certificates/asp.net-mvc-certificate.jpg"
@@ -48,7 +59,9 @@ const Certifications = () => {
               height={200}
               alt="HackerRank C# Basic Certificate"
               onClick={() =>
-                handleOpenModal("/certificates/basic-c-sharp-with-hackerrank.png")
+                handleOpenModal(
+                  "/certificates/basic-c-sharp-with-hackerrank.png"
+                )
               }
             />
           </div>
@@ -60,7 +73,9 @@ const Certifications = () => {
               height={200}
               alt="Foundational C sharp Certificate(Microsoft)"
               onClick={() =>
-                handleOpenModal("/certificates/foundational-c-sharp-with-microsoft.png")
+                handleOpenModal(
+                  "/certificates/foundational-c-sharp-with-microsoft.png"
+                )
               }
             />
           </div>
@@ -98,7 +113,9 @@ const Certifications = () => {
               height={200}
               alt="FreeCodeCampg JavaScript Algorithms and Data Structure"
               onClick={() =>
-                handleOpenModal("/certificates/javascript-algorithms-and-data-structures.png")
+                handleOpenModal(
+                  "/certificates/javascript-algorithms-and-data-structures.png"
+                )
               }
             />
           </div>
@@ -110,7 +127,9 @@ const Certifications = () => {
               height={200}
               alt="Udemy AWS Course Completion Certificate"
               onClick={() =>
-                handleOpenModal("/certificates/udemy-aws-course-completion-certificate.jpg")
+                handleOpenModal(
+                  "/certificates/udemy-aws-course-completion-certificate.jpg"
+                )
               }
             />
           </div>

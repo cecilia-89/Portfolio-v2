@@ -35,7 +35,7 @@ const Header = () => {
 
           <div className="mt-4 max-w-xs flex gap-4">
             <Link
-              className="flex items-center rounded uppercase border border-teal-300 px-4 py-2 text-xs text-teal-300 font-medium"
+              className="blog-button flex items-center rounded uppercase border border-teal-300 px-4 py-2 text-xs text-teal-300 font-medium"
               href="https://devismael.substack.com/"
               target="_blank"
               title="Openning blog site in new tab"
@@ -56,7 +56,7 @@ const Header = () => {
             </Link>
             <Link
               href="/resume/Resume_Of_Ismael_Miah.pdf"
-              className="flex items-center rounded uppercase border border-teal-300 px-4 py-2 text-xs text-teal-300 font-medium"
+              className="resume-button flex items-center rounded uppercase border border-teal-300 px-4 py-2 text-xs text-teal-300 font-medium"
               aria-label="Download CV"
               target="_blank"
             >
