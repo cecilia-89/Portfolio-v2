@@ -48,8 +48,33 @@ const Education = () => {
                       </span>
                     </a>
                   </h3>
-                  <p className="mt-2 text-sm leading-normal text-justify">
-                    Studying Master&apos;s in computer networking
+                  <header aria-label="september 2024 to present">
+                    September 2024 — Present
+                  </header>
+                  <header aria-label="september 2024 to present">
+                    <b>Master&apos;s in Computer Networking (Msc)</b>
+                  </header>
+                  <p className="mt-2 text-sm leading-normal">
+                  <ul>
+                      <li>
+                        - Learned foundational networking concepts and security fundamentals.
+                      </li>
+                      <li>
+                        - Developed skills in network planning and troubleshooting.
+                      </li>
+                      <li>
+                        - Acquired knowledge in network design and implementation.
+                      </li>
+                      <li>
+                        - Gained expertise in network management and administration.
+                      </li>
+                      <li>
+                        - Gained proficiency in Linux operations and command-line interface.
+                      </li>
+                      <li>
+                        - Learned about cloud computing and virtualization.
+                      </li>
+                    </ul>
                   </p>
                 </div>
                 <Image
@@ -98,25 +123,43 @@ const Education = () => {
                       </span>
                     </a>
                   </h3>
-                  <p className="mt-2 text-sm leading-normal text-justify">
-                    I earned a{" "}
-                    <b>Bachelor&apos;s degree in Software Engineering</b> from
-                    Daffodil International University in 2021, graduating with a
-                    CGPA of <b>3.82</b>. During my studies, I participated in
-                    competitive programming contests and mentored 1st-year
-                    students. I developed strong problem-solving skills in C++,
-                    Java, and Python, and gained proficiency in{" "}
-                    <b>
-                      object-oriented programming (OOP), data structures,
-                      algorithms, SDLC, and web development
-                    </b>
-                    . I also acquired knowledge in{" "}
-                    <b>
-                      database management, version control using Git, and
-                      software testing, while honing communication and teamwork
-                      abilities
-                    </b>
-                    .
+                  <header aria-label="january 2017 to july 2021">
+                    January 2017 — July 2021
+                  </header>
+                  <header aria-label="january 2017 to july 2021">
+                    <b>Bachelor&apos; in Software Engineering (BSc)</b>
+                  </header>
+                  <p className="mt-2 text-sm leading-normal">
+                    <ul>
+                      <li>
+                        - Graduated with a CGPA of 3.82 out of 4.00
+                      </li>
+                      <li>
+                        - Participated in competitive programming contests.
+                      </li>
+                      <li>
+                        - Mentored first-year students.
+                      </li>
+                      <li>
+                        - Developed problem-solving skills in C++, Java, and
+                        Python.
+                      </li>
+                      <li>
+                        - Proficient in OOP, data structures, and algorithms.
+                      </li>
+                      <li>
+                        - Knowledgeable in SDLC and web development.
+                      </li>
+                      <li>
+                        - Experienced in DBMS (Database) and version control using Git.
+                      </li>
+                      <li>
+                        - Acquired skills in software testing.
+                      </li>
+                      <li>
+                        - Honed communication and teamwork abilities.
+                      </li>
+                    </ul>
                   </p>
                 </div>
                 <Image
