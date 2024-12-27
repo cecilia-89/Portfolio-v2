@@ -24,7 +24,7 @@ const Header = () => {
           </h2>
           <i>Plateau, Nigeria</i>
           <p className="mt-2 leading-relaxed">
-            I'm a detail-oriented software engineer with 5 years of experience creating, developing, 
+            I&apos;m a detail-oriented software engineer with 5 years of experience creating, developing, 
             and maintaining scalable, high-performing web applications. I enjoy 
             working with cross-functional teams and thrive on solving complex technical challenges 
             to bring ideas to life.

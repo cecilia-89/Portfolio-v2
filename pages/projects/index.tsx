@@ -29,7 +29,7 @@ const Project = () => {
                       aria-label="Nenee's Delicacy"
                     >
                       <span className="group/link  text-slate-200 hover:text-violet-300 focus-visible:text-violet-300 text-base">
-                        Nenee's Delicacy
+                        Nenee&apos;s Delicacy
                         <span className="inline-block">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const Project = () => {
                     </a>
                   </h3>
                   <p className="mt-2 tleading-normal text-justify">
-                    Nenee's Delicacy is a brand that offers a wide variety of baked goods, 
+                    Nenee&apos;s Delicacy is a brand that offers a wide variety of baked goods, 
                     including pastries, cakes, cookies, and more for every occasion. 
                     It is designed to provide customers with a seamless 
                     digital experience: accessible, responsive, and crafted to grow and 
