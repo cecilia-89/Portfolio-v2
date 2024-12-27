@@ -15,6 +15,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 /* tailwind.css */
 @screen sm {
   .mt-10-sm {
@@ -36,6 +37,17 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.section {
+  border-top: 1px outset #c3b5fd;
+  border-image: linear-gradient(to right, transparent, #c3b5fda1, transparent) 1;
+}
+
+.images {
+  aspect-ratio: 16/12;
+  object-fit: cover;
+}
+
+
 /* Hover effect for each image */
 .gallery img:hover {
   transform: scale(1.1);
@@ -45,11 +57,11 @@
 
 .group.active > .nav-indicator {
   width: 4rem;
-  background-color: rgb(226 232 240 / 1);
+  background-color: #c4b5fd;
 }
 
 .group.active > .nav-text {
-  color: rgb(226 232 240 / 1);
+  color: #c4b5fd;
 }
 
 .resume-button, .blog-button{
@@ -57,7 +69,9 @@
 }
 
 .resume-button:hover, .blog-button:hover{
-  box-shadow: 3px 3px 0 0 #64ffda;
+  box-shadow: 3px 3px 0 0 rgb(195, 181, 253);
   transform: translate(-4px, -4px);
+  color: rgb(195, 181, 253);
   outline: none;
+
 }
