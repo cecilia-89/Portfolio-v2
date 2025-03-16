@@ -7,8 +7,8 @@ const About = () => {
     >
     
       <div>
-          I began my professional journey at Aldoj Amazing Consults, 
-          where I developed the frontend interface of a website. While working there, 
+          I began my professional journey at ADM Asia pacific, 
+          where I redesigned the user interface and optimized the raffle draw system.
           I also participated in the ALX Holberton program, which significantly enhanced my skills and 
           exposed me to real-world challenges. Through this program, I tackled complex problems and 
           devised optimized solutions. Most recently, in 2024, I joined Nexapay, a fintech company 
