@@ -16,6 +16,97 @@ const Experience = () => {
 
         <div>
           <ol className="group/list">
+          <li className="mb-12">
+              <div className="group relative pb-1 transition-all md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block "></div>
+              
+                <div className="z-10 sm:col-span-6">
+                  <h3 className="font-medium leading-snug text-slate-200">
+                    <div>
+                      <a
+                        className=" items-baseline font-medium leading-tight text-base"
+                        href="https://www.adm.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="Fullstack Developer at ADM Asia"
+                      >
+
+                        <span className="group/link text-slate-300 hover:text-violet-300 focus-visible:text-violet-300">
+                          Full-stack developer, {" "}
+                          <span className="inline-block">
+                            Babelos{" "}
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                              aria-hidden="true"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                clipRule="evenodd"
+                              ></path>
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+                      <div aria-label="march 2024 to august 2024" className="text-xs uppercase text-slate-500 font-semibold">
+                          January 2025 — Present
+                      </div>
+                    </div>
+                  </h3>
+                  <div className="mt-2 leading-normal text-justify">
+                    In 2025, I joined Babelos as a Full-Stack Developer, where I developed web applications from the ground up with a strong emphasis on performance, scalability, and maintainability. I implemented real-time features using WebSockets to enable instant, event-driven communication between clients and systems, and integrated webhooks to seamlessly handle external service events. I was also responsible for designing and exposing secure, RESTful APIs to support user authentication, account management, and resource access. Additionally, I transformed UI/UX designs into fully responsive, pixel-perfect interfaces, ensuring smooth and intuitive user experiences across devices.
+                  </div>
+                  <ul
+                    className="mt-2 flex flex-wrap"
+                    aria-label="Technologies used"
+                  >
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-violet-400/10 px-3 py-1 text-xs font-medium leading-5 text-violet-300 ">
+                        NestJs
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-violet-400/10 px-3 py-1 text-xs font-medium leading-5 text-violet-300 ">
+                        NodeJs
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-violet-400/10 px-3 py-1 text-xs font-medium leading-5 text-violet-300 ">
+                        ReactJs
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-violet-400/10 px-3 py-1 text-xs font-medium leading-5 text-violet-300 ">
+                        HTML5
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-violet-400/10 px-3 py-1 text-xs font-medium leading-5 text-violet-300 ">
+                        CSS3
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-violet-400/10 px-3 py-1 text-xs font-medium leading-5 text-violet-300 ">
+                        NextJs
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-violet-400/10 px-3 py-1 text-xs font-medium leading-5 text-violet-300 ">
+                        MongoDB
+                      </div>
+                    </li>
+                    <li className="mr-1.5 mt-2">
+                      <div className="flex items-center rounded-full bg-violet-400/10 px-3 py-1 text-xs font-medium leading-5 text-violet-300 ">
+                        Google Cloud Services
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
             <li className="mb-12">
               <div className="group relative pb-1 transition-all lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block"></div>
