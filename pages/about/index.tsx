@@ -7,9 +7,9 @@ const About = () => {
     >
     
       <div>
-          I began my professional journey at ADM asia pacific, where I redesign the frontend interface of the website and optimized it's raffle draw system. I also participated in the ALX Holberton program, which significantly enhanced my skills and exposed me to real-world challenges. Through this program, I tackled complex problems and devised optimized solutions. <br/><br/>
+          I began my professional journey at ADM asia pacific, where I redesign the frontend interface of the website and optimized it&apos;s raffle draw system. I also participated in the ALX Holberton program, which significantly enhanced my skills and exposed me to real-world challenges. Through this program, I tackled complex problems and devised optimized solutions. <br/><br/>
           
-          In 2024, I joined Nexapay, a fintech company that offers services tailored to individuals. Mostly recently, I joined Babelos as a Full Stack Developer, where I contributed to building scalable backend services and responsive frontend interfaces. I worked on feature-rich web applications, implemented real-time functionality using WebSockets, integrated third-party APIs and payment systems, and optimized performance across both client and server sides. 
+          In 2024, I joined Nexapay, a fintech company that offers services tailored to individuals. Mostly recently, Also, I joined Babelos as a Full Stack Developer, where I contributed to building scalable backend services and responsive frontend interfaces. I worked on feature-rich web applications, implemented real-time functionality using WebSockets, integrated third-party APIs and payment systems, and optimized performance across both client and server sides. 
         <br/>
         <br />
         <p className="mb-4">

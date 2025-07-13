@@ -48,7 +48,7 @@ const Education = () => {
                     </a>
                   </h3>
                   <header aria-label="september 2024 to present">
-                    November 16 — September 2021
+                    November 2016 — September 2021
                   </header>
                   <header aria-label="september 2024 to present">
                     <b>Bachelor&apos;s in Computer Science (Bsc)</b>

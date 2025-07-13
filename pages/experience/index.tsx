@@ -52,7 +52,7 @@ const Experience = () => {
                         </span>
                       </a>
                       <div aria-label="march 2024 to august 2024" className="text-xs uppercase text-slate-500 font-semibold">
-                          January 2025 — Present
+                          January 2025 — July 2025
                       </div>
                     </div>
                   </h3>
