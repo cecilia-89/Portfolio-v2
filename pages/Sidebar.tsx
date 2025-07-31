@@ -32,7 +32,7 @@ const Header = () => {
 
           <div className="mt-4 max-w-xs flex gap-8">
             <Link
-              href="/resume/Cecilia's Detailed Europass Curriculum Vitae.pdf"
+              href="/resume/Cecilia Atabong's CV.pdf"
               className="resume-button flex items-center rounded uppercase border border-violet-300 px-4 py-2 text-xs text-violet-300 font-medium"
               aria-label="Download CV"
               target="_blank"
